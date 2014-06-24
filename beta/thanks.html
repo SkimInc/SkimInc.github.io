@@ -34,23 +34,20 @@
 		</div>
 		<h2> Congrats you're on our secret list! Wanna tell your friends about us?</h2>
 		<div class="thanks-message">
+			<!-- FB button -->
 			<div class="fb-like" data-href="http://getskim.co" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false">
             </div>
+
+            <!-- Tweet button -->
 			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://getskim.co" data-text="Skim | A Flipboard for Adventures! #BeAwesome" data-via="getskim" data-related="getskim" >Tweet</a>
         	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-    	    
+    	    <!-- Follow button -->
     	    <a href="https://twitter.com/getskim" class="twitter-follow-button" data-show-count="false">Follow @getskim</a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-			<script type="text/javascript">
-				var _yoData = {
-					"username": "GETSKIM",
-					"trigger": "we have new adventures every week!"
-				};
-				var s = document.createElement("script");
-				s.type = "text/javascript";
-				s.src = "//yoapp.s3.amazonaws.com/js/yo-button.js";
-				(document.head || document.getElementsByTagName("head")[0]).appendChild(s);
-			</script>
+
+			<!-- Yo button -->
+			<div id="yo-button"></div>
+
 		</div>
 		<h3>Coming soon on Android and iPhone for SF, LA, NYC, Paris, London and Bangalore! </h3>
 		
@@ -134,5 +131,16 @@ ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'st
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 </script>
+
+<script type="text/javascript">
+				var _yoData = {
+					"username": "GETSKIM",
+					"trigger": "we have new adventures every week!"
+				};
+				var s = document.createElement("script");
+				s.type = "text/javascript";
+				s.src = "//yoapp.s3.amazonaws.com/js/yo-button.js";
+				(document.head || document.getElementsByTagName("head")[0]).appendChild(s);
+			</script>
 </body>
 </html>
