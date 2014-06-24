@@ -226,3 +226,14 @@ table{
 	text-decoration: none;
 	color: #FFFFFF;
 }
+
+/*Thanks page*/
+.thanks-message{
+	margin: 10px auto;
+	width: 100%;
+	text-align: center;
+}
+#yo-button{
+	margin-left: 20px;
+	display: inline-block;
+}
